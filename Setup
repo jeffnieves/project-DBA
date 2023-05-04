@@ -1,0 +1,43 @@
+
+--create database
+
+CREATE TABLE client 
+(
+    first_name      VARCHAR(255)    PRIMERY KEY,
+    last_name       VARCHAR(255),
+    address_name    VARCHAR(255),
+    city_name       VARCHAR(255),
+    state           VARCHAR(255),
+    zipcode         INT(5),
+    scuba_liscense  VARCHAR(255),
+);
+
+CREATE TABLE scuba_shop 
+(
+    address_name  VARCHAR(255)    PRIMARY KEY,
+    city_name     VARCHAR(255),
+    state         VARCHAR(255),
+    zipcode       INT(5),   
+);
+
+CREATE TABLE diving_location 
+(
+    address_name  VARCHAR(255)    PRIMARY KEY,
+    city_name     VARCHAR(255),
+    state         VARCHAR(255),
+    zipcode       INT(5),   
+);
+
+CREATE TABLE Dive_records 
+(
+    dive_address_name   VARCHAR(255)      PRIMARY KEY,
+    city_name           VARCHAR(255),
+    state               VARCHAR(255),
+    zipcode             INT(5),
+    dive_date           Date,
+    dive_time_start     VARCHAR(255),
+    dive_time_end       VARCHAR(255),
+    tank VARCHAR        (255),
+    visibility          VARCHAR(255),
+    dive_buddy          VARCHAR(255),
+);
