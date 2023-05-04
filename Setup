@@ -27,10 +27,9 @@ CREATE TABLE scuba_shop
 --diving location
 CREATE TABLE diving_location 
 (
-    address_name  VARCHAR(255)    PRIMARY KEY,
-    city_name     VARCHAR(255),
-    state         VARCHAR(255),
-    zipcode       INT(5),   
+    site_name  VARCHAR(255)    PRIMARY KEY,
+    city       VARCHAR(255),
+    country    VARCHAR(255),   
 );
  
 
