@@ -1,0 +1,56 @@
+
+INSERT INTO client (first_name, last_name, address_name, city_name , state , zipcode, scuba_liscense) VALUES ('john', 'doe', 'exampleadress', 'city', 'state', 'zipcode' , 'ex123456');
+
+---
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('97 Morris Rd', 'Asheville', 'NC', '28806);
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('1141 Patton Ave', 'Asheville', 'NC', '28806');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('6 Lollis Rd', 'Candler', 'NC', '287156');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('578 Upward Rd # 9, Flat Rock', 'NC', '28731');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('3620 Pelham Rd', 'Greenville', 'SC', '29615');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('710 Dive Buddy Lane', Salem', 'SC', '29676');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('333 Whitney Rd, Spartanburg', 'SC', '29303');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('1308 W Market St', Johnson City, 'TN', '37604');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('6635 Kingsport Hwy', 'Gray', 'TN', '37615');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('108 Spartanburg Rd', 'Duncan', 'SC', '29334');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('500 Old Greenville Hwy #500-7', 'Clemson', 'SC', '2963');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('305 Mccall Brothers Dr # B', 'Salem', 'SC', '29676');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('3113 US-421, Bristol', 'TN', '37620');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('4310K Wilkinson Blvd', 'Gastonia', 'NC', '28056');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('2001 N Broadway B', 'Knoxville', 'TN', '37917');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('3103 N Oxford St', 'Claremont', 'NC', '28610');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('102 Tanager Rd, Gray Court', 'SC', '29645');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('900 S Fork Village Dr G-01', 'Belmont', 'NC', '28012');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('482 River Hwy, Mooresville', 'NC' '28117');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('EE, 601 S Kings Dr', Charlotte, 'NC', '28204');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('12210 N Tryon St', Charlotte,, 'NC' '28262');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('307 N Wilson St', Rock Hill, 'SC' '29730');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('1046 Regent Pkwy #105', 'Fort Mill', 'SC', '29715');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('3560 McEver Rd', 'Gainesville', 'GA' '30504');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('1630 W Main St', 'Lexington', 'SC', '29072');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('4350 St Andrews Rd ste a', 'Columbia', 'SC', '29210');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('2440 W Broad St', 'Athens', 'GA', '30606');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('2701 Alpine Rd', 'Columbia', 'SC', '29223');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('805 State Farm Rd B1', 'Boone', 'NC', '28607');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('5184 McGinnis Ferry Rd', 'Alpharetta', 'GA', '30005');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('245 Arch Barrett Dr', 'Rosedale', 'VA', '24280');
+INSERT INTO scuba_shop (address_name, city_name, state , zipcode) VALUES ('1134 GA-77, Hartwell', GA 30643);
+
+---
+INSERT INTO diving_location (site_name, city, country) VALUES (Wolf And Darwin Islands, Galapagos, Ecuador);
+INSERT INTO diving_location (site_name, city, country) VALUES (South Pass, Fakarava, French Polynesia);
+INSERT INTO diving_location (site_name, city, country) VALUES (Anemone City, Alor, Indonesia);
+INSERT INTO diving_location (site_name, city, country) VALUES ( Richelieu Rock, Andaman Sea, Thailand);
+INSERT INTO diving_location (site_name, city, country) VALUES (Tiger Beach, Grand Bahama, Bahamas);
+INSERT INTO diving_location (site_name, city, country) VALUES ('Roca Partida, Socorro, Mexico);
+INSERT INTO diving_location (site_name, city, country) VALUES ( SS Thistlegorm, Red Sea, Egypt;
+INSERT INTO diving_location (site_name, city, country) VALUES ( Blue Heron Bridge, Florida, USA);
+INSERT INTO diving_location (site_name, city, country) VALUES (Cape Kri, Raja Ampat, Indonesia);
+INSERT INTO diving_location (site_name, city, country) VALUES (Rapid Bay Jetty, South Australia, Australia);
+INSERT INTO diving_location (site_name, city, country) VALUES (Apo Island, Dumaguete, Philippines);
+INSERT INTO diving_location (site_name, city, country) VALUES (Los Islotes, La Paz, Mexico);
+INSERT INTO diving_location (site_name, city, country) VALUES (Barracuda Point, Sipadan, Malaysia);
+INSERT INTO diving_location (site_name, city, country) VALUES ('Mellow Yellow, Vatu-I-Ra, Fiji);
+INSERT INTO diving_location (site_name, city, country) VALUES (Blue Corner Wall, Palau, Micronesia);
+INSERT INTO diving_location (site_name, city, country) VALUES (The Boiler, Socorro, Mexico);
+INSERT INTO diving_location (site_name, city, country) VALUES (Magic Mountain, Raja Ampat, Indonesia);
+
