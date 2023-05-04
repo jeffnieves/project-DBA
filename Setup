@@ -1,6 +1,7 @@
 
 --create database
 
+--client
 CREATE TABLE client 
 (
     first_name      VARCHAR(255)    PRIMERY KEY,
@@ -12,6 +13,8 @@ CREATE TABLE client
     scuba_liscense  VARCHAR(255),
 );
 
+
+--scuba shop
 CREATE TABLE scuba_shop 
 (
     address_name  VARCHAR(255)    PRIMARY KEY,
@@ -20,6 +23,8 @@ CREATE TABLE scuba_shop
     zipcode       INT(5),   
 );
 
+
+--diving location
 CREATE TABLE diving_location 
 (
     address_name  VARCHAR(255)    PRIMARY KEY,
@@ -27,7 +32,9 @@ CREATE TABLE diving_location
     state         VARCHAR(255),
     zipcode       INT(5),   
 );
+ 
 
+--dive records
 CREATE TABLE Dive_records 
 (
     dive_address_name   VARCHAR(255)      PRIMARY KEY,
@@ -37,7 +44,7 @@ CREATE TABLE Dive_records
     dive_date           Date,
     dive_time_start     VARCHAR(255),
     dive_time_end       VARCHAR(255),
-    tank VARCHAR        (255),
+    tank                VARCHAR(255),
     visibility          VARCHAR(255),
-    dive_buddy          VARCHAR(255),
+    dive_buddy_name     VARCHAR(255),
 );
