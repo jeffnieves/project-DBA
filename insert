@@ -53,4 +53,7 @@ INSERT INTO diving_location (site_name, city, country) VALUES ('Mellow Yellow, V
 INSERT INTO diving_location (site_name, city, country) VALUES (Blue Corner Wall, Palau, Micronesia);
 INSERT INTO diving_location (site_name, city, country) VALUES (The Boiler, Socorro, Mexico);
 INSERT INTO diving_location (site_name, city, country) VALUES (Magic Mountain, Raja Ampat, Indonesia);
+---
+
+INSERT INTO dive-records (dive_address_name, city_name, state, zipcode, dive_date, dive_time_start, dive_time_end, tank, visibility, dive_buddy,) VALUES ('adressex', 'cityex', 'state-ex', 'zipcode-ex' , '2/4/23', '1120', '1340', '12L', 'clear', 'john doe');
 
